@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import BootstrapNavbar from 'react-bootstrap/Navbar'; // Cambia el nombre aquí
+import BootstrapNavbar from 'react-bootstrap/Navbar';
 import CartWidget from "./CartWidget";
 import Logo from "./Logo";
 import "./navbar.css";
@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar() {
   return (
-    <BootstrapNavbar expand="lg" className="bg-body-tertiary"> {/* Cambia aquí también */}
+    <BootstrapNavbar expand="lg" className="bg-body-tertiary"> 
       <Logo />
       <Container>
         <BootstrapNavbar.Brand href="#home">Inicio</BootstrapNavbar.Brand>
